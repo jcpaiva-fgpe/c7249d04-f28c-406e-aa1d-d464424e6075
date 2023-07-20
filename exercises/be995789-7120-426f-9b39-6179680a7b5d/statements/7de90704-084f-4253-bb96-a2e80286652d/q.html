@@ -1,0 +1,38 @@
+<b>Dane konta bankowego</b>
+<br><br>
+<p>
+Zdefiniuj klasę Konto, która będzie miała jedno pole: zalozone_konta początkowo równe 0 i dodaj jej funkcję inicjalizującą (konstruktor), która:
+- nie bedzie przyjmować parametrów,
+- dla każdego nowego konta będzie zwiększać licznik zalozone_konta o 1 i nadawać ten numer nowemu kontu w polu nr_konta w postaci napisu zawierającego co najmniej trzy cyfry (uzupełniane w razie potrzeby zerami),
+- będzie inicjalizować pole data_zablokowania wartością None,
+- będzie inicjalizować pole saldo wartością 0.0,
+- będzie inicjalizować pole wlasciciel nowym obiektem klasy Wlasciciel z ustawionym miastem Szczecin (reszta danych pusta),
+- będzie wyświetlać napis "Wprowadź dane właściciela nowego konta" i wywoływać wtedy funkcję podaj_dane_wlas.</p>
+<br>
+<pre>Przykład działania:
+Wprowadź dane właściciela nowego konta
+Imie: Jan
+Nazwisko: Kowalski
+Nr Dowodu: 
+Nr Dowodu wymaga podania wartości.
+Nr Dowodu: ABC 123456
+Miejscowosc (Szczecin): 
+Kod Pocztowy: 71-101
+Ulica: Mickiewicza
+Nr Domu: 64
+Nr Mieszkania: 
+Kraj (Polska): 
+001
+Mickiewicza
+Wprowadź dane właściciela nowego konta
+Imie: Roman
+Nazwisko: Bratny
+Nr Dowodu: ZYX 987654
+Miejscowosc (Szczecin): 
+Kod Pocztowy: 71-004
+Ulica: Cukrowa
+Nr Domu: 8
+Nr Mieszkania: 
+Kraj (Polska): 
+002
+Cukrowa</pre>
