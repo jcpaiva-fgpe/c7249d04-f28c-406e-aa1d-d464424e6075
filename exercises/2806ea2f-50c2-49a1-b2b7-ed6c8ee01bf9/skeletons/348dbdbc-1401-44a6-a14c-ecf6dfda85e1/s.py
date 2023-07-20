@@ -17,13 +17,21 @@ a=Adres("", "", "Mickiewicza", "")
 a.podaj_adres()
 print(a)
 #Miejscowosc: 
+#
 #Miejscowosc wymaga podania wartości.
-#Miejscowosc: Szczecin
+#Miejscowosc: 
+#Szczecin
 #Kod Pocztowy: 
+#
 #Kod Pocztowy wymaga podania wartości.
-#Kod Pocztowy: 71-101
+#Kod Pocztowy: 
+#71-101
 #Ulica (Mickiewicza): 
-#Nr Domu: 64
-#Nr Mieszkania: 
+#
+#Nr Domu: 
+#64
+#Nr Mieszkania:
+# 
 #Kraj (Polska): 
+#
 #Mickiewicza 64, 71-101 Szczecin, Polska
