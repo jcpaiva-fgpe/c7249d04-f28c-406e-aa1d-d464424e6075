@@ -43,13 +43,22 @@ w=Wlasciciel("", "", "ABC 123456", "Szczecin", "71-101", "Mickiewicza", "")
 w.podaj_dane_wlas()
 print(w)
 
-#Imie: Jan
-#Nazwisko: Kowalski
+#Imie: 
+#Jan
+#Nazwisko: 
+#Kowalski
 #Nr Dowodu (ABC 123456): 
+#
 #Miejscowosc (Szczecin): 
+#
 #Kod Pocztowy (71-101): 
+#
 #Ulica (Mickiewicza): 
-#Nr Domu: 64
-#Nr Mieszkania: 
+#
+#Nr Domu: 
+#64
+#Nr Mieszkania:
+# 
 #Kraj (Polska): 
+#
 #Jan Kowalski (nr dok. tożs. ABC 123456) zam. Mickiewicza 64, 71-101 Szczecin, Polska
