@@ -1,0 +1,24 @@
+Wprowadź dane właściciela nowego konta
+Imie:
+Nazwisko:
+Nr Dowodu:
+Miejscowosc (Szczecin):
+Kod Pocztowy:
+Ulica:
+Nr Domu:
+Nr Mieszkania:
+Kraj (Polska):
+001
+Mickiewicza
+Wprowadź dane właściciela nowego konta
+Imie:
+Nazwisko:
+Nr Dowodu:
+Miejscowosc (Szczecin):
+Kod Pocztowy:
+Ulica:
+Nr Domu:
+Nr Mieszkania:
+Kraj (Polska):
+002
+Cukrowa
