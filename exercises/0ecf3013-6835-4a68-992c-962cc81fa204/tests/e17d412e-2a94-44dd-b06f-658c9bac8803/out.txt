@@ -1,0 +1,17 @@
+Wprowadź dane właściciela nowego konta
+Imie:
+Nazwisko:
+Nr Dowodu: 
+Nr Dowodu wymaga podania wartości.
+Nr Dowodu:
+Miejscowosc (Szczecin): 
+Kod Pocztowy:
+Ulica:
+Nr Domu:
+Nr Mieszkania:
+Kraj (Polska): 
+Podaj nr rachunku na sprawdzenie:
+Błędny numer konta.
+Podaj nr rachunku na sprawdzenie:
+Konto nr: 001	Aktywne		Saldo: 0.00 zł
+Właściciel: Jan Kowalski (nr dok. tożs. ABC 123456) zam. Mickiewicza 64, 71-101 Szczecin, Polska
