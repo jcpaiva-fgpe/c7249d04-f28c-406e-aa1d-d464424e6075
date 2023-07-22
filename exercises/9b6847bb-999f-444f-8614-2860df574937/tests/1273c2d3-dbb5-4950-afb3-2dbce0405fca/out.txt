@@ -4,7 +4,7 @@ Nr Dowodu (ABC 123456):
 Miejscowosc (Szczecin):
 Kod Pocztowy (71-101):
 Ulica (Mickiewicza):
-Nr Domu:
+Nr Domu (1):
 Nr Mieszkania:
 Kraj (Polska):
-Jan Kowalski (nr dok. tożs. ABC 123456) zam. Mickiewicza 1/1, 71-101 Szczecin, Polska
+Jan Kowalski (nr dok. tożs. ABC 123456) zam. Mickiewicza 1, 71-101 Szczecin, Polska
