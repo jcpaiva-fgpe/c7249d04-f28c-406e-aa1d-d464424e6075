@@ -11,7 +11,7 @@ class Adres:
         adres = self.ulica + " " + self.nr_domu
         if self.nr_mieszkania: adres += "/" + self.nr_mieszkania
         adres += ", " + self.kod_pocztowy + " " + self.miejscowosc + ", " + self.kraj
-        return adres
+        return adres.strip()
 
     def podaj_adres(self):
         for x in ["miejscowosc", "kod_pocztowy", "ulica", "nr_domu", "nr_mieszkania", "kraj"]:
