@@ -1,10 +1,4 @@
 Imie (Jan):
-Nazwisko (Kowalski):
-Nr Dowodu (ABC 123456):
 Miejscowosc (Szczecin):
-Kod Pocztowy (71-101):
-Ulica (Mickiewicza):
-Nr Domu (1):
-Nr Mieszkania:
 Kraj (Polska):
 True
