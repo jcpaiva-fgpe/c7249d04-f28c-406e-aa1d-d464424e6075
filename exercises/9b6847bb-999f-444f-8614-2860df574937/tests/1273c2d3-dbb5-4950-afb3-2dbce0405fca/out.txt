@@ -7,4 +7,4 @@ Ulica (Mickiewicza):
 Nr Domu (1):
 Nr Mieszkania:
 Kraj (Polska):
-Jan Kowalski (nr dok. tożs. ABC 123456) zam. Mickiewicza 1, 71-101 Szczecin, Polska
+True
