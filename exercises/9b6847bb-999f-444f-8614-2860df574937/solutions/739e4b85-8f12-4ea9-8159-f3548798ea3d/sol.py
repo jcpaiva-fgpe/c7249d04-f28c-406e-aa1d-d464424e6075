@@ -1,11 +1,11 @@
 class Adres:
-    def __init__(self, miejscowosc, kod_pocztowy, ulica, nr_domu, nr_mieszkania="", kraj = "Polska"):
+    def __init__(self, miejscowosc, kraj = "Polska"):
         self.kraj = kraj
         self.miejscowosc = miejscowosc
-        self.kod_pocztowy = kod_pocztowy
-        self.ulica = ulica
-        self.nr_domu = nr_domu
-        self.nr_mieszkania = nr_mieszkania                
+        #self.kod_pocztowy = kod_pocztowy
+        #self.ulica = ulica
+        #self.nr_domu = nr_domu
+        #self.nr_mieszkania = nr_mieszkania                
 
     def __str__(self):        
         adres = self.ulica + " " + self.nr_domu
@@ -14,7 +14,7 @@ class Adres:
         return adres.strip()
 
     def podaj_adres(self):
-        for x in ["miejscowosc", "kod_pocztowy", "ulica", "nr_domu", "nr_mieszkania", "kraj"]:
+        for x in ["miejscowosc", "kraj"]:
             dotychczasowe = ""
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
@@ -27,20 +27,19 @@ class Adres:
                 print(x_sformatowane, "wymaga podania wartości.")
 				
 class Wlasciciel(Adres):
-    def __init__(self, imie, nazwisko, nr_dowodu, miejscowosc, kod_pocztowy, ulica, nr_domu,
-                 nr_mieszkania="", kraj = "Polska"):
+    def __init__(self, imie, miejscowosc, kraj = "Polska"):
         self.imie = imie
-        self.nazwisko = nazwisko
-        self.nr_dowodu = nr_dowodu
-        super().__init__(miejscowosc, kod_pocztowy, ulica, nr_domu, nr_mieszkania, kraj)
+        #self.nazwisko = nazwisko
+        #self.nr_dowodu = nr_dowodu
+        super().__init__(miejscowosc, kraj)
 
     def __str__(self):        
-        wlas = self.imie  + " " + self.nazwisko + " (nr dok. tożs. " + self.nr_dowodu + ") zam. "
+        wlas = self.imie 
         wlas += super().__str__()
         return wlas
 
     def podaj_dane_wlas(self):
-        for x in ["imie", "nazwisko", "nr_dowodu"]:
+        for x in ["imie"]:
             dotychczasowe = ""
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
@@ -53,9 +52,9 @@ class Wlasciciel(Adres):
                 print(x_sformatowane,"wymaga podania wartości.")
         self.podaj_adres()
 
-w=Wlasciciel("Jan", "Kowalski", "ABC 123456", "Szczecin", "71-101", "Mickiewicza", "1")
+w=Wlasciciel("Jan", "Szczecin","Polska")
 w.podaj_dane_wlas()
-print(w)
+print(True)
 #Imie: Jan
 #Nazwisko: Kowalski
 #Nr Dowodu (ABC 123456): 
