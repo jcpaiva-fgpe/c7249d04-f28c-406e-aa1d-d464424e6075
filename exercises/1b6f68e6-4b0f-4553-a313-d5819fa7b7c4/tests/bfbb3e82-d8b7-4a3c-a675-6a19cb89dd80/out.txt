@@ -1,0 +1,23 @@
+Wprowadź dane właściciela nowego konta
+Imie:
+Nazwisko:
+Nr Dowodu:
+Nr Dowodu wymaga podania wartości.
+Nr Dowodu:
+Miejscowosc (Szczecin):
+Kod Pocztowy:
+Ulica:
+Nr Domu:
+Nr Mieszkania:
+Kraj (Polska):
+Podaj nr rachunku do wpłaty:
+Podaj kwotę wpłaty:
+Saldo po wpłacie: 500.15 zł
+Podaj nr rachunku do wpłaty:
+Podaj kwotę wpłaty:
+Saldo po wpłacie: 522.30 zł
+Podaj nr rachunku do wpłaty:
+Podaj kwotę wpłaty:
+Niewłaściwa kwota wpłaty.
+Podaj nr rachunku do wpłaty:
+Błędny numer konta.
