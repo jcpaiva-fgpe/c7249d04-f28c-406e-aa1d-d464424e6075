@@ -28,7 +28,6 @@ class Adres:
                 print(x_sformatowane, "wymaga podania wartości.")
 
 a=Adres("Szczecin", "71-101", "Mickiewicza", "64")
-#a=Adres("", "", "Mickiewicza", "")
 a.podaj_adres()
 print(a)
 
