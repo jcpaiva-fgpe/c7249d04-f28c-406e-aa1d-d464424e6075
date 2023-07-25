@@ -19,14 +19,16 @@ class Adres:
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
             while True:
-                v = input(x_sformatowane + dotychczasowe + ":" + "\n")
+                print(x_sformatowane + dotychczasowe + ":")
+                v = input()
                 if v:
                     self.__dict__[x] = v
                     break
                 if dotychczasowe or x == "nr_mieszkania": break
                 print(x_sformatowane, "wymaga podania wartości.")
 
-#a=Adres("Szczecin", "71-101", "Mickiewicza", "64")
-a=Adres("", "", "Mickiewicza", "")
+#Nie zmieniaj kodu.
+a=Adres("Szczecin", "71-101", "Mickiewicza", "64")
 a.podaj_adres()
 print(a)
+####################
