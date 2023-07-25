@@ -12,10 +12,17 @@ class Adres:
         if self.nr_mieszkania: adres += "/" + self.nr_mieszkania
         adres += ", " + self.kod_pocztowy + " " + self.miejscowosc + ", " + self.kraj
         return adres
-		
-a=Adres("", "", "Mickiewicza", "")
-a.podaj_adres()
+
+
+# Aby zaliczyc zadanie nie zmieniaj poniszeszego kodu (3 linie).
+a=Adres("Szczecin", "71-101", "Mickiewicza", "64")
+a.podaj_adres() 
 print(a)
+# #################
+
+
+
+#exp output
 #Miejscowosc: 
 #
 #Miejscowosc wymaga podania wartości.
