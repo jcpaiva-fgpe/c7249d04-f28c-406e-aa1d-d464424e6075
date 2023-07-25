@@ -1,4 +1,4 @@
-Miejscowosc (Szczecin):
+Miejscowosc:
 Kod Pocztowy:
 Ulica (Mickiewicza):
 Nr Domu:
