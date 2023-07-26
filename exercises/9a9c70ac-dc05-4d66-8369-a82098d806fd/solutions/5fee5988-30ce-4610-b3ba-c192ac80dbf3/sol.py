@@ -54,7 +54,7 @@ class Wlasciciel(Adres):
                 print(x_sformatowane,"wymaga podania wartości.")
         self.podaj_adres()
 
-w=Wlasciciel("", "", "ABC 123456", "Szczecin", "71-101", "Mickiewicza", "")
+w=Wlasciciel("", "", "ABC 123456", "Szczecin", "71-101", "Mickiewicza", "64")
 w.podaj_dane_wlas()
 print(w)
 #Imie: Jan
