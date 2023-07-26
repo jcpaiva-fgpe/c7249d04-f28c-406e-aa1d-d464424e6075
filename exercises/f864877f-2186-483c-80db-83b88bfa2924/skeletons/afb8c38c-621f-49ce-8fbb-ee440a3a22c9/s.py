@@ -19,7 +19,8 @@ class Adres:
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
             while True:
-                v = input(x_sformatowane + dotychczasowe + ":\n")
+                print(x_sformatowane + dotychczasowe + ":"))
+                v = input()
                 if v:
                     self.__dict__[x] = v
                     break
