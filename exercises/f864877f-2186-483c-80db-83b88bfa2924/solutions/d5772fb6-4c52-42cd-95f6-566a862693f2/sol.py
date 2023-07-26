@@ -1,4 +1,3 @@
-
 class Adres:
     def __init__(self, miejscowosc, kod_pocztowy, ulica, nr_domu, nr_mieszkania="", kraj = "Polska"):
         self.kraj = kraj
