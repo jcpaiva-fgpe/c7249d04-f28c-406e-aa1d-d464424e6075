@@ -62,7 +62,7 @@ class Konto():
         self.nr_konta = f"{len(self.__class__.zalozone_konta):03}"
         self.data_zablokowania = None
         self.saldo = 0.0
-        self.wlasciciel = Wlasciciel("", "", "", "Szczecin", "", "", "")
+        self.wlasciciel = Wlasciciel("", "", "ABC 123456", "Szczecin", "71-101", "Mickiewicza", "64")
         print("Wprowadź dane właściciela nowego konta")
         self.wlasciciel.podaj_dane_wlas()
     def __str__(self):        
