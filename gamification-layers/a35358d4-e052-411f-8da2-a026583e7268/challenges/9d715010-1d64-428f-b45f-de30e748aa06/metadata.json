@@ -1,1 +1,1 @@
-{"id":"9d715010-1d64-428f-b45f-de30e748aa06","name":"15. Menu główne programu","description":"","refs":["f73749bf-ce71-42ae-a5a0-130d814894a2"],"mode":"NORMAL","mode_parameters":[],"locked":false,"hidden":false,"difficulty":"BEGINNER","children":[]}
+{"id":"9d715010-1d64-428f-b45f-de30e748aa06","name":"15. Menu główne programu","description":"Napisz kod programu głównego, który wyświetli w pętli nieskończonej menu","refs":["f73749bf-ce71-42ae-a5a0-130d814894a2"],"mode":"NORMAL","mode_parameters":[],"locked":true,"hidden":false,"difficulty":"BEGINNER","children":[]}
