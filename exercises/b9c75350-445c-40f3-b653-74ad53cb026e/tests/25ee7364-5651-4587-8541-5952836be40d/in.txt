@@ -1,7 +1,25 @@
-Szczecin
+Jan
+Kowalski
+
+ABC 123456
+
 71-101
 Mickiewicza
-
 64
+
+
+
+Roman
+Bratny
+ZYX 987654
+
+71-004
+Cukrowa
+8
+ 
+
 1
-Polska
+100
+2
+200
+10
