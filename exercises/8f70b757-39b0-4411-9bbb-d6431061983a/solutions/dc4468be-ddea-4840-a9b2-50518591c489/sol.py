@@ -20,7 +20,8 @@ class Adres:
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
             while True:
-                v = input(x_sformatowane + dotychczasowe + ": ")
+                print(x_sformatowane + dotychczasowe + ":")
+                v = input()
                 if v:
                     self.__dict__[x] = v
                     break
@@ -46,7 +47,8 @@ class Wlasciciel(Adres):
             if self.__dict__.get(x, ""): dotychczasowe = " (" + self.__dict__[x] + ")"
             x_sformatowane = x.title().replace("_", " ")
             while True:
-                v = input(x_sformatowane + dotychczasowe + ":\n")
+                print(x_sformatowane + dotychczasowe + ":")
+                v = input()
                 if v:
                     self.__dict__[x] = v
                     break
@@ -69,8 +71,8 @@ class Konto():
         if self.data_zablokowania:
             opis += "\tZablokowane dn.: " + str(self.data_zablokowania)
         else:
-            opis += "\tAktywne"
-        opis += f"\t\tSaldo: {self.saldo:.2f} zł\n"
+            opis += " Aktywne"
+        opis += f" Saldo: {self.saldo:.2f} zł\n"
         opis += "Właściciel: " + self.wlasciciel.__str__()
         return opis
     @classmethod
