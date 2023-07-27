@@ -2,14 +2,13 @@ Wprowadź dane właściciela nowego konta
 Imie:
 Nazwisko:
 Nr Dowodu (ABC 123456):
-Miejscowosc (Szczecin): 
-Kod Pocztowy(71-101): 
-Ulica (Mickiewicza): 
-Nr Domu (64): 
-Nr Mieszkania: 
-Kraj (Polska): 
-Podaj nr rachunku do wpłaty: 
-Podaj kwotę wpłaty:
-Saldo po wpłacie: 100.00 zł
+Miejscowosc (Szczecin):
+Kod Pocztowy(71-101):
+Ulica (Mickiewicza):
+Nr Domu (64):
+Nr Mieszkania:
+Kraj (Polska):
+Podaj nr rachunku do wpłaty:
+Błędny numer konta.
 Podaj nr rachunku - źródła środków:
 Błędny numer konta.
