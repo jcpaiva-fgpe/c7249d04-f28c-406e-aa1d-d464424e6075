@@ -3,7 +3,7 @@ Imie:
 Nazwisko:
 Nr Dowodu (ABC 123456):
 Miejscowosc (Szczecin):
-Kod Pocztowy(71-101):
+Kod Pocztowy (71-101):
 Ulica (Mickiewicza):
 Nr Domu (64):
 Nr Mieszkania:
