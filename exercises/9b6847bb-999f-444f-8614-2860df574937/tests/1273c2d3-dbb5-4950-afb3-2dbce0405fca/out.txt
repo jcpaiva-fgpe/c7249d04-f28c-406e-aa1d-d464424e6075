@@ -1,4 +1,0 @@
-Imie (Jan):
-Miejscowosc (Szczecin):
-Kraj (Polska):
-True
