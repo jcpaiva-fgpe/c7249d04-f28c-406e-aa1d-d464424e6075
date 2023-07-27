@@ -3,16 +3,13 @@ Imie:
 Nazwisko:
 Nr Dowodu (ABC 123456):
 Miejscowosc (Szczecin): 
-Kod Pocztowy(71-101):
-Ulica (Mickiewicza):
-Nr Domu (64):
+Kod Pocztowy(71-101): 
+Ulica (Mickiewicza): 
+Nr Domu (64): 
 Nr Mieszkania: 
 Kraj (Polska): 
-Podaj nr rachunku do wpłaty:
+Podaj nr rachunku do wpłaty: 
 Podaj kwotę wpłaty:
 Saldo po wpłacie: 100.00 zł
 Podaj nr rachunku - źródła środków:
-Podaj nr rachunku docelowego przelewu:
-Podaj kwotę do przelewu:
-Saldo konta 001 po wypłacie: 99.00 zł
-Saldo konta 002 po wypłacie: 1.00 zł
+Błędny numer konta.
