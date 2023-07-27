@@ -1,0 +1,16 @@
+Imie:
+Nazwisko:
+Nr Dowodu (ABC 123456):
+Miejscowosc (Szczecin):
+Kod Pocztowy (71-101):
+Ulica (Mickiewicza):
+Nr Domu (64):
+Nr Mieszkania: 
+Kraj (Polska): 
+Podaj nr rachunku do wpłaty:
+Podaj kwotę wpłaty:
+Saldo po wpłacie: 1000.00 zł
+Podaj nr rachunku do zamknięcia:
+Konto zablokowane od 2023-05-08 11:07:59.376201
+Podaj nr rachunku do wypłaty:
+Konto zablokowano 2023-05-08 11:17:59.376201
