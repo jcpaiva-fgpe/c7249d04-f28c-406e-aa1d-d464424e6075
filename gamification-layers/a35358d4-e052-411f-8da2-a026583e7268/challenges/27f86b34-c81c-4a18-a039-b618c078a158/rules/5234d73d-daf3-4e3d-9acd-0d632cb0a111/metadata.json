@@ -1,0 +1,1 @@
+{"id":"5234d73d-daf3-4e3d-9acd-0d632cb0a111","name":"un14","triggers":[{"kind":"ACTION","event":"CHALLENGE_COMPLETED","recurrent":false,"parameters":["27f86b34-c81c-4a18-a039-b618c078a158"]}],"criteria":{},"actions":[{"type":"UPDATE","parameters":["CHALLENGE","7832ce7e-b180-4e72-89ca-0a493a6ca13b","state","OPENED"]}]}
